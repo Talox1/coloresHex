@@ -35,10 +35,13 @@ public class Main{
       B2 = color2.substring(4, 6);        //valor en B color2
       
       valueR = (Integer.parseInt(R1,16) + Integer.parseInt(R2,16))/2;  //suma y promedio para R
-      valueG = (Integer.parseInt(G1,16) + Integer.parseInt(G2,16)/2);  //suma y promedio para G
-      valueB = (Integer.parseInt(B1,16) + Integer.parseInt(B2,16)/2);  //suma y promedio para B
+      valueG = (Integer.parseInt(G1,16) + Integer.parseInt(G2,16))/2;  //suma y promedio para G
+      valueB = (Integer.parseInt(B1,16) + Integer.parseInt(B2,16))/2;  //suma y promedio para B
 
-      System.out.println("R: "+valueR+"\nG: "+valueG+"\nB: "+valueB);
-      return valueColor+""+valueR+""+valueG+""+valueB;         //retorno de informacion
+
+      
+
+      System.out.println("R: "+Integer.toHexString(valueR)+"\nG: "+Integer.toHexString(valueG)+"\nB: "+Integer.toHexString(valueB));
+      return valueColor+""+Integer.toHexString(valueR)+""+Integer.toHexString(valueG)+""+Integer.toHexString(valueB);   
    }
 }
