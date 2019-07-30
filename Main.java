@@ -41,7 +41,7 @@ public class Main{
 
       
 
-      System.out.println("R: "+Integer.toHexString(valueR)+"\nG: "+Integer.toHexString(valueG)+"\nB: "+Integer.toHexString(valueB));
-      return valueColor+""+Integer.toHexString(valueR)+""+Integer.toHexString(valueG)+""+Integer.toHexString(valueB);   
+      System.out.println("R: "+Integer.toHexString(valueR)+"\nG: "+Integer.toHexString(valueG)+"\nB: "+Integer.toHexString(valueB));//conversion a hexadecimal
+      return valueColor+""+Integer.toHexString(valueR)+""+Integer.toHexString(valueG)+""+Integer.toHexString(valueB);   //retorno de informacio en hexadecimal
    }
 }
